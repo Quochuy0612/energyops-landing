@@ -10,7 +10,6 @@ import {
   Shield,
   Calendar,
   ClipboardList,
-  MoreVertical,
   Eye,
   Edit,
   Lock,
@@ -19,7 +18,6 @@ import {
   X,
   ChevronDown,
   ChevronRight,
-  Clock,
   Info,
   AlertTriangle,
   AlertCircle,
@@ -350,7 +348,7 @@ export function Users() {
         subtitle="Quản lý tài khoản, phân quyền và ca trực nhân viên"
         actions={
           <div className="flex items-center gap-3">
-            <Badge variant="default" size="md" className="gap-2">
+            <Badge variant="neutral" size="md" className="gap-2">
               <UsersIcon className="w-4 h-4" />
               {users.length} người dùng
             </Badge>
@@ -616,7 +614,7 @@ export function Users() {
                           {role.name}
                         </span>
                       </div>
-                      <Badge variant="default" size="sm">
+                      <Badge variant="neutral" size="sm">
                         {role.userCount} người
                       </Badge>
                     </button>

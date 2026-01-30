@@ -135,7 +135,7 @@ export function Tickets() {
   const navigate = useNavigate()
   const [selectedStatus, setSelectedStatus] = useState<string>('all')
   const [searchTerm, setSearchTerm] = useState('')
-  const [showAIAssistant, setShowAIAssistant] = useState(true)
+  const [showAIAssistant] = useState(true)
 
   const filteredTickets = mockTickets.filter((ticket) => {
     const matchesStatus = selectedStatus === 'all' || ticket.status === selectedStatus

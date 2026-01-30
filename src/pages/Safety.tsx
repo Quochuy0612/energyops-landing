@@ -16,7 +16,6 @@ import {
   Download,
   Upload,
   CheckCircle,
-  XCircle,
   Clock,
   Flame,
   Zap,
@@ -25,8 +24,6 @@ import {
   ChevronRight,
   ChevronDown,
   Filter,
-  Play,
-  Pause,
   Settings,
   Users,
   Award,
@@ -644,7 +641,7 @@ export function Safety() {
                     <p className="text-sm font-medium text-gray-900">Kiểm tra PPE định kỳ</p>
                     <p className="text-xs text-gray-500">05/02/2026 - TBA 220kV Tân Định</p>
                   </div>
-                  <Badge variant="default" size="sm">
+                  <Badge variant="neutral" size="sm">
                     Đã lên lịch
                   </Badge>
                 </div>
@@ -676,7 +673,7 @@ export function Safety() {
                       <FileText className="w-5 h-5 text-gray-400" />
                       <span className="font-medium text-gray-700">Tất cả</span>
                     </div>
-                    <Badge variant="default" size="sm">
+                    <Badge variant="neutral" size="sm">
                       {procedures.length}
                     </Badge>
                   </button>
@@ -707,7 +704,7 @@ export function Safety() {
                           {cat.name}
                         </span>
                       </div>
-                      <Badge variant="default" size="sm">
+                      <Badge variant="neutral" size="sm">
                         {cat.count}
                       </Badge>
                     </button>
@@ -741,7 +738,7 @@ export function Safety() {
                       <div className="flex-1 min-w-0">
                         <h4 className="font-medium text-gray-900 truncate">{proc.title}</h4>
                         <div className="flex items-center gap-2 mt-1">
-                          <Badge variant="default" size="sm">
+                          <Badge variant="neutral" size="sm">
                             v{proc.version}
                           </Badge>
                           <span className="text-xs text-gray-500">{proc.fileSize}</span>

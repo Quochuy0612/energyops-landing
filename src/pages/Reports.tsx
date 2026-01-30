@@ -20,7 +20,6 @@ import {
   Search,
   Filter,
   CheckCircle,
-  ChevronRight,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -362,7 +361,7 @@ export function Reports() {
       {/* Filter Bar */}
       <div className="flex items-center gap-4 mb-4">
         <div className="flex-1">
-          <Input placeholder="Tìm kiếm báo cáo..." icon={<Search className="w-4 h-4" />} />
+          <Input placeholder="Tìm kiếm báo cáo..." />
         </div>
         <Button variant="secondary">
           <Filter className="w-4 h-4 mr-2" />

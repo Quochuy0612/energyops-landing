@@ -19,7 +19,6 @@ import {
   Gauge,
   FileText,
   Calendar,
-  MapPin,
   X,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -505,7 +504,7 @@ export function Equipment() {
                 <div className="space-y-4">
                   <div>
                     <label className="text-sm font-medium text-gray-700 mb-2 block">Tìm kiếm</label>
-                    <Input placeholder="Mã hoặc tên TB..." icon={<Search className="w-4 h-4" />} />
+                    <Input placeholder="Mã hoặc tên TB..." />
                   </div>
 
                   <div>
