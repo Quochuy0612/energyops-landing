@@ -5,7 +5,6 @@ import {
   Plus,
   Download,
   RefreshCw,
-  Search,
   Filter,
   ChevronRight,
   ChevronDown,

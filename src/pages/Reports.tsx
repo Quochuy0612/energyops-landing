@@ -17,7 +17,6 @@ import {
   Clock,
   Play,
   Pause,
-  Search,
   Filter,
   CheckCircle,
 } from 'lucide-react'

@@ -155,8 +155,8 @@ const DiagramCanvasInner: React.FC<DiagramCanvasProps> = ({
     },
   }))
 
-  const onInit = useCallback((instance: ReactFlowInstance) => {
-    reactFlowInstance.current = instance
+  const onInit = useCallback((instance: ReactFlowInstance<any, any>) => {
+    reactFlowInstance.current = instance as ReactFlowInstance
   }, [])
 
   // Handle keyboard delete

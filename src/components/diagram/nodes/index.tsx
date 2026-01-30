@@ -2,7 +2,7 @@
  * React Flow custom node components for electrical symbols
  */
 
-import React, { memo } from 'react'
+import { memo } from 'react'
 import { NodeProps } from '@xyflow/react'
 import { BaseNode, BaseNodeData } from './BaseNode'
 import {

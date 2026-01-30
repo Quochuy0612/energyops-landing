@@ -14,7 +14,7 @@ export interface BaseNodeData {
   onDelete?: (id: string) => void
 }
 
-interface BaseNodeProps extends NodeProps {
+interface BaseNodeProps extends Omit<NodeProps, 'data'> {
   data: BaseNodeData
   children: React.ReactNode
   showHandles?: boolean
